@@ -1,7 +1,5 @@
 import { Controller, Get, Post, Body, Put, Param, Delete } from '@nestjs/common';
 import { WidgetsService } from './widgets.service';
-import { CreateWidgetDto } from './dto/create-widget.dto';
-import { UpdateWidgetDto } from './dto/update-widget.dto';
 import { Widget } from '@fem/api-interfaces';
 
 @Controller('widgets')
